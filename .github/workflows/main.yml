@@ -52,3 +52,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_IAM_MANAGER_SECRET_ACCESS_KEY }}
           AWS_REGION: us-east-2
           SOURCE_DIR: 'artifact'
+
