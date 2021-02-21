@@ -38,7 +38,7 @@ jobs:
           # Files or directories to zip
           files: build
           # Name of output zip file
-          dest: build.zip
+          dest: artifact/build.zip
           # Whether to add subdirectories to simply zip all files to the root
           recursive: true
 
@@ -51,4 +51,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets. AWS_IAM_MANAGER_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_IAM_MANAGER_SECRET_ACCESS_KEY }}
           AWS_REGION: us-east-2
-          SOURCE_DIR: 'build.zip'
+          SOURCE_DIR: 'artifact'
