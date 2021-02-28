@@ -61,4 +61,13 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_IAM_MANAGER_SECRET_ACCESS_KEY }}
           AWS_REGION: us-east-2
           SOURCE_DIR: 'artifact'
+          
 
+      - name: AWS Create Deployment
+        run: |
+          aws deploy create-deployment \
+           --application-name ec2-deploy-nginx \
+           --deployment-config-name CodeDeployDefault.OneAtATime \
+           --deployment-group-name ec2-deploy-practice \
+           --file-exists-behavior OVERWRITE \
+           --s3-location bucket=s3://ec2-deploy-nginx/,key=build.zip,bundleType=zip \
