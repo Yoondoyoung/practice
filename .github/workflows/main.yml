@@ -70,4 +70,4 @@ jobs:
            --deployment-config-name CodeDeployDefault.OneAtATime \
            --deployment-group-name ec2-deploy-practice \
            --file-exists-behavior OVERWRITE \
-           --s3-location bucket=s3://ec2-deploy-nginx/,key=build.zip,bundleType=zip \
+           --s3-location bucket=us-east-2,key=build.zip,bundleType=zip \
