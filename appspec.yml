@@ -4,4 +4,5 @@ files:
   - source:  /
     destination: /usr/share/nginx/html/practice/build/
 Hooks:
-  - AfterInstall: /usr/share/nginx/html/scripts/restart_nginx.sh
+  - AfterInstall: 
+    - location: /usr/share/nginx/html/scripts/restart_nginx.sh
