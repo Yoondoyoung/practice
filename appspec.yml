@@ -3,3 +3,5 @@ os: linux
 files:
   - source:  /
     destination: /usr/share/nginx/html/practice/build/
+Hooks:
+  - AfterInstall: /usr/share/nginx/html/scripts/restart_nginx.sh
