@@ -79,7 +79,7 @@ jobs:
       - name: AWS Create Deployment
         run: |
           aws deploy create-deployment \
-           --application-name ec2-deploy-nginx \
+           --application-name ec2-deploy-practice \
            --deployment-config-name CodeDeployDefault.OneAtATime \
            --deployment-group-name ec2-deploy-practice \
            --file-exists-behavior OVERWRITE \
