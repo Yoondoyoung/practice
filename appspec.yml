@@ -6,3 +6,4 @@ files:
 Hooks:
   - AfterInstall: 
     - location: /usr/share/nginx/html/scripts/restart_nginx.sh
+      runas: root
