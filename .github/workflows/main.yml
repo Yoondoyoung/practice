@@ -38,6 +38,17 @@ jobs:
           source: appspec.yml
           # Target file
           target: build/appspec.yml
+          
+      - name: Copy file
+        # You may pin to the exact commit or the version.
+        # uses: canastro/copy-action@7ddff6fc153a2ea2cd0fb88ed9750544c051e399
+        uses: canastro/copy-action@0.0.2
+        with:
+          # Source file
+          source: Scripts/**
+          # Target file
+          target: build/Scripts/
+          
     
       - name: Easy Zip Files
         # You may pin to the exact commit or the version.
