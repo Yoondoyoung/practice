@@ -13,7 +13,6 @@ export default function App() {
           <NavBar />
         </header>
         <Contents />
-
       </Route>
     </Router>
   );
