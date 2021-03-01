@@ -4,6 +4,6 @@ files:
   - source:  /
     destination: /usr/share/nginx/html/practice/build/
 Hooks:
-  - AfterInstall: 
+  - BeforeInstall: 
     - location: Scripts/restart_nginx.sh
       runas: root
