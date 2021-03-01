@@ -2,21 +2,19 @@ import React from "react";
 import { Contents, NavBar } from './components';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 export default function App() {
   return (
     <Router>
-      <div>
+      <Route>
         <header>
           <NavBar />
         </header>
         <Contents />
 
-      </div>
+      </Route>
     </Router>
   );
 }
