@@ -3,7 +3,8 @@ os: linux
 files:
   - source:  /
     destination: /usr/share/nginx/html/practice/build/
-Hooks:
-  - AfterInstall: 
+hooks:
+  AfterInstall:
     - location: Scripts/restart_nginx.sh
+      timeout: 300
       runas: root
