@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+mport logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         ?????
+         test for deploy
         </a>
       </header>
     </div>
