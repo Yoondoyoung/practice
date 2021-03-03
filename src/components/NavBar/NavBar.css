@@ -1,0 +1,15 @@
+
+.nav-item{
+	text-align: center;
+	padding: 6px;
+	margin-left: 10%;
+}
+
+.nav-head{
+	align-content: center;
+}
+
+.navbar-nav{
+	position: relative;
+	left: 70%;
+}
