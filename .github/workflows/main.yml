@@ -26,9 +26,6 @@ jobs:
 
       - name: Npm install
         run: npm install
-        
-      - name: Npm install router
-        run: npm install react-router-dom
       
       - name: Install AWS CLI 2
         run: |
