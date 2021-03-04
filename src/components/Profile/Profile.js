@@ -4,7 +4,7 @@ class Profile extends Component {
 	render() {
 		return(
 			<div>
-			<h2> this is my profile </h2>
+			<h1> This is my profile </h1>
 			<p> i'm korean </p>
 			</div>
 		);

@@ -1,5 +1,6 @@
 import React from "react";
 import { Contents, NavBar } from './components';
+import { Container } from 'react-bootstrap';
 import {
   BrowserRouter as Router,
   Route
@@ -12,7 +13,10 @@ export default function App() {
         <header>
           <NavBar />
         </header>
-        <Contents />
+        <Container fluid>
+          <Contents />
+        </Container>
+        
       </Route>
     </Router>
   );
