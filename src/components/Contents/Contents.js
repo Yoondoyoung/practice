@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 import "./Contents.css";
 import { 
   Home,
-  Profile,
+  Skills,
   Project,
   Contact
 } from '../';
@@ -14,7 +14,7 @@ class Contents extends Component {
       <div>
         <Switch>
           <Route exact path='/' component={Home}/>
-          <Route exact path='/Profile' component={Profile}/>
+          <Route exact path='/Skills' component={Skills}/>
           <Route exact path='/Project' component={Project}/>
           <Route exact path='/Contact' component={Contact}/>
         </Switch>

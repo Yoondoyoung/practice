@@ -1,16 +1,19 @@
 
-.nav-item{
+.menu-list{
 	text-align: center;
 	padding: 6px;
 	margin-left: 10%;
+	color: #222831;
 }
 
 .nav-head{
 	align-content: center;
+	background-color: #ffd369!important;
 }
 
 .navbar-nav{
 	position: relative;
 	left: 70%;
-	background-color: #343a40;
+	background-color: #ffd369!important;
 }
+

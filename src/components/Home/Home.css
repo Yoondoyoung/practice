@@ -1,5 +1,15 @@
-.home {
+.main {
 	text-align: center;
 	color: #eeeeee;
 }
 
+.profile{
+	width: 50%;
+	border-radius: 50%;
+	position: relative;
+	top:10%;
+}
+
+.about {
+	margin-top: 15%;
+}

@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import './Project.css';
-class Project extends Component {
-
+import "./Skills.css";
+class Skills extends Component {
 	render() {
-		return (
+		return(
 			<Row className='main'>
 				<Col>
-					<h1>My Project</h1>
+					<h1>Skills</h1>
 				</Col>
 			</Row>
+			
 		);
 	}
 }
 
-export default Project;
+export default Skills;

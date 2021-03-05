@@ -6,21 +6,13 @@ import './NavBar.css';
 class NavBar extends Component {
     render() {
         return (
-            <Navbar className="nav-head my-4" expand="md" bg="dark">
+            <Navbar className="nav-head my-4" expand="md">
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Nav className="nav-center" activeKey="/home">
-                        <Nav.Item>
-                          <Link to="/">Home</Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Link to="/Profile">Profile</Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Link to="/Project">Project</Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Link to="/Contact">Contact</Link>
-                        </Nav.Item>
+                          <Link className='menu-list' to="/">Home</Link>
+                          <Link className='menu-list' to="/Skills">Skills</Link>
+                          <Link className='menu-list' to="/Project">Project</Link>
+                          <Link className='menu-list' to="/Contact">Contact</Link>
                     </Nav>
             </Navbar>
         );
