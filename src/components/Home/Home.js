@@ -13,7 +13,7 @@ class Home extends Component {
 					<div>i don't know what should i write here</div>
 				</Col>
 				<Col>
-					<img className='profile' src={imageProfile}/>
+					<img className='profile' src={imageProfile} alt=''/>
 				</Col>
 			</Row>
 		);
